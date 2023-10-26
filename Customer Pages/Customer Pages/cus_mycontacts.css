@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+.body{
+    overflow-x: hidden;
+}
+
+
+/*=============================Nav Bar==========================*/
+
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:15vh;
+    
+    margin-left: 25px;
+}
+
+/*================================Search Box=====================*/
+
+
+#searchbox{
+    width: 40vw;
+    
+    height: 13vh;
+    padding-top: 13px;
+    
+    
+}
+
+#searchbox ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+    
+    
+}
+
+#searchbox ul li{
+    
+    padding-left: 5px;
+    
+    padding-right: 0px;
+    cursor: pointer;
+    
+}
+
+#searchbox ul li input{
+    margin-right: 0px;
+    border-radius: 0.7em;
+    padding: 0px 10px;
+    height: 35px;
+    
+}
+
+#searchbox ul li i{
+    margin-left: 0px;
+    
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+
+/*===========Hovering Effects=============*/
+
+#searchbox ul li i:hover{
+    font-weight: bold;
+}
+
+
+
+/*================================List Buttons===================*/
+
+
+#list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40vw;
+    
+    height: 13vh;
+    
+    
+
+}
+
+#list ul li{
+    width: 400px;
+    height: 12vh;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(111, 111, 111, 0.6);
+    border-radius: 0.5em;
+    padding-top: 20px;
+    cursor: pointer;
+
+}
+
+/*=============Hovering Effects============*/
+
+#list ul li:hover{
+    background-color: rgba(56, 56, 56, 0.7);
+    font-weight: bold;
+}
+
+
+/*===============Form============================*/
+
+.form{
+    
+    width: 80vw;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgba(111,111,111,0.6);
+    border-radius: 0.8em;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 150px auto auto auto auto;
+    
+    margin: 5px;
+    
+}
+
+.grid-item-1{
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.grid-item{
+    margin: 5px;
+    padding: 5px;
+}

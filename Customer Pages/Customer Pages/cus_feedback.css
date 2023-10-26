@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*==========================Form====================*/
+
+#feedback{
+    background-color: rgba(88, 88, 88, 0.6);
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color:black;
+    border-radius: 0.5em;
+}
+
+
+/*=========================Heading========================*/
+
+#heading{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/*==========================Grid============================*/
+
+
+.grid-container{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    border: rgba(111, 111, 111, 0.5);
+    padding: 10px;
+    margin-top: 3px;
+    width: 32vw;
+    
+    
+}
+
+.grid_item{
+    border-radius: 0.5em;
+    padding: 5px;
+    margin-top: 5px;
+    
+    width: 30vw;
+    font-weight: bold;
+
+}
+
+.grid_item input{
+    width:29vw;
+    height: 40px;
+    border-radius: 0.5em;
+    padding: 5px;
+}
+
+.grid_item textarea{
+    width:29vw;
+    height: 100px;
+    border-radius: 0.5em;
+    padding: 5px;
+    resize: none;
+}
+
+.grid_item_1{
+    
+    padding: 10px;
+    font-size: 25px;
+    text-align: left;
+    
+    text-align: center;
+
+}
+
+.grid_item_1 input{
+    width:29vw;
+    height: 40px;
+    border-radius: 0.5em;
+    padding: 5px;
+    background-color: rgba(88,88,88, 0.6);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+/*=======================Hovering Effects========================*/
+
+.grid_item_1 input:hover{
+    background-color: grey;
+}
+
+.grid_item_1 input:active{
+    background-color: black;
+    color: white;
+}
