@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .header1 {display: inline;} /*header of the website */
+        .nav1 {float: right;}
+        .footer1 {display: inline;
+                  margin-left:100px; /*footer of the website */
+                  
+                   }
+        .footer {margin-top:65px;
+                  position: relative;
+                  margin-left:500px;
+                  margin-bottom: 100;
+                  font-size: 20px;} 
+
+        .container1 p {margin-top:50px;
+                    margin:20px;
+                    padding:20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 45px;}
+
+        .container2 {margin-top:50px;
+                    margin:20px;
+                    padding:20px;}
+
+        .container2 p span {margin-top:50px;
+                            font-size: 35px;
+                    }
+        .container2 p {margin-top:50px;
+                      font-size: 35px;
+                      font-family: Arial;
+                    }
+        .login-Signin-button {
+            background-color: #B686F4;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 65px;
+            font-size: 25px;
+        }
+        .header2 {
+            background-color: #B686F4;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        #header_container h1{font-family:"arial";
+                             font-size:64px;
+        }
+
+        .container3 {display:inline;
+                     margin-left:70px;}
+
+         body {
+            background-image: url("Images/Background_2.jpg");
+            color:white;
+        }
+
+        .login-container p {font-size: 20px; font-family: Arial;
+                            text-decoration: underline;
+           
+        } 
+
+         
+    </style>
+</head>
+<body>
+    <div id="header_container">
+        <img class="header1" src="./Images/mushroom.png" alt="mushroom" width="100px" hight="100px">
+
+         <h1 class="header1">CRM</h1>
+
+        <nav class="header1 nav1">
+            <button class="header2"><a href="help.html">Help</a></button>
+            <button class="header2"><a href="about.html">About Us</a> </button> 
+            <button class="header2"><a href="contact.html">Contact Us</a></button>   
+
+        </nav>
+    </div>
+    <div class="container1">
+        <p >Want to start a new <br> Business </p>
+        <button class="login-Signin-button" onclick="window.location.href='new_business.html'">Sign Up</button>
+    </div>
+    
+    <div class="container2">
+
+        <p> <span><b>CRM</b><br></span> Is a customer relationship management <br> Website that is suitable for Small Scale Business</p>
+        <p>Already have an account?</p>
+    </div>
+
+    <div class="login-container">
+        
+        <button class="login-Signin-button container3">Sign In</button>
+        <p class="container3">Forget Password?</p>
+    </div>
+    </div>
+    <div class="footer">
+        <p class="footer1">Terms & Condition &copy; 2023</p> 
+        <p class="footer1"> Help</p>
+        <p class="footer1">CS2001</p>
+    </div>
+</body>
+</html>
